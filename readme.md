@@ -26,6 +26,6 @@ Here are some Spotify playlists I've made:
 - [fields & castles](https://open.spotify.com/playlist/49mgY7pENVtzXAyi5M1vaH?si=9c2d38f7df6a4bf3)
 - [caverns & void](https://open.spotify.com/playlist/3KT4NNBlxQreJM8cOONw2A?si=c8c2e954526e4dbf)
 
-If you have questions or concerns, email me [here](awren.nuit@gmail.com)
+If you have questions or concerns, email me [here](mailto:awren.nuit@gmail.com)
 
 Thanks for lookin'! Happy dungeon synthing 💜
