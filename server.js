@@ -78,7 +78,7 @@ const main = async () => {
     let $about = await page.$('.tralbum-about');
     let aboutCopy = await page.evaluate((el) => el?.textContent, $about);
 
-    if (typeof aboutCopy === undefined) aboutCopy = '';
+    if (aboutCopy === undefined) aboutCopy = '';
 
     let $credits = await page.$('.tralbum-credits');
     let creditsCopy = await page.evaluate((el) => el.textContent, $credits);
