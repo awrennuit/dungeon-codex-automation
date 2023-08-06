@@ -96,7 +96,7 @@ const main = async () => {
         return tds.map((td) => {
           return {
             title: td.querySelector('.track-title').innerText.trim(),
-            length: td.querySelector('.time').innerText.trim(),
+            length: td.querySelector('.time')?.innerText?.trim() || '00:00',
           };
         });
       });
