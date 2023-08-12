@@ -124,8 +124,13 @@ const main = async () => {
     await page.waitForSelector('#searchText');
     await page.type('#searchText', ARTIST_TO_FIND);
     await page.click('[type="button"]');
-    await page.waitForSelector('#searchCard');
-    await page.click('#searchCard a');
+    await page.waitForSelector('#searchCard a');
+    await page.click(
+      `#searchCard [href="/artist/${ARTIST_TO_FIND.toLowerCase()
+        .replace(/[^\w\s]/gi, '')
+        .replace(/\s/g, '-')}"]`
+    );
+
     await page.waitForSelector(
       '.flex-row.my-1 + .flex.flex-row.justify-center div a'
     );
