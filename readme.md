@@ -11,7 +11,7 @@ Scrape bandcamp data for an album & submit it to [Dungeon Codex](https://dungeon
 - add `UN=email@email.com` (your email for dungeon-codex)
 - add `PW=Password123` (your password for dungeon-codex)
 - open `server.js`
-- change `ARTIST_TO_FIND` to the artist you dungeon-codex artist you want to add an ablum to
+- change `ARTIST_TO_FIND` to the artist you dungeon-codex artist you want to add an album to
 - change `URL_TO_FETCH` to the bandcamp URL of the album you want to add
 - open a terminal/command line
 - `npm i`
